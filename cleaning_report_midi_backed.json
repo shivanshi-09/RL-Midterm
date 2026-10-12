@@ -1,0 +1,51 @@
+{
+  "input_file": "Hooktheory.json.gz",
+  "output_file": "cleaned_melodies_midi_backed.json.gz",
+  "min_notes": 6,
+  "midi_archives": [
+    "Hooktheory_Train_MIDI.tar.gz",
+    "Hooktheory_Test_MIDI.tar.gz"
+  ],
+  "records": {
+    "TEST": {
+      "raw": 2761,
+      "tag_filtered": 961,
+      "cleaned": 1466,
+      "removed_too_few_notes": 14,
+      "removed_invalid": 0,
+      "removed_no_midi": 334
+    },
+    "VALID": {
+      "raw": 2184,
+      "tag_filtered": 480,
+      "cleaned": 1687,
+      "removed_too_few_notes": 17,
+      "removed_invalid": 0,
+      "removed_no_midi": 0
+    },
+    "TRAIN": {
+      "raw": 21230,
+      "tag_filtered": 4601,
+      "cleaned": 13505,
+      "removed_too_few_notes": 55,
+      "removed_invalid": 0,
+      "removed_no_midi": 3124
+    }
+  },
+  "global": {
+    "tag_filtered": 6042,
+    "cleaned_notes": 858548,
+    "melody_span_beats": 392957.826171875,
+    "kept": 16658,
+    "removed_too_few_notes": 86,
+    "raw_notes": 769699,
+    "leading_silence_trimmed": 15038,
+    "leading_silence_beats": 851343.1452636719,
+    "removed_no_midi": 3458
+  },
+  "pitch_sources": {
+    "json": 1704,
+    "midi": 15040
+  },
+  "examples_removed": []
+}
