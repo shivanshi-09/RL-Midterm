@@ -1,0 +1,26 @@
+/home/ojas.kumar/RL-Midterm/melody_env/lib/python3.13/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Psi training on cuda:1; prior=/home/ojas.kumar/RL-Midterm/runs/note_rnn_256_gpu/best.pt
+/home/ojas.kumar/RL-Midterm/melody_env/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1481.)
+  result = _VF.lstm(
+{"events": 0, "updates": 0, "music_reward": 147.856, "objective": -3.74, "kl": 0.0, "best": true, "elapsed_s": 1.0}
+{"events": 10000, "updates": 2245, "music_reward": 101.947, "objective": -3.815, "kl": 0.429, "best": false, "elapsed_s": 22.5}
+{"events": 20000, "updates": 4745, "music_reward": 70.137, "objective": -3.821, "kl": 0.503, "best": false, "elapsed_s": 45.5}
+{"events": 30000, "updates": 7245, "music_reward": 214.39, "objective": -3.492, "kl": 0.485, "best": true, "elapsed_s": 68.5}
+{"events": 40000, "updates": 9745, "music_reward": 265.947, "objective": -3.255, "kl": 0.409, "best": true, "elapsed_s": 91.5}
+{"events": 50000, "updates": 12245, "music_reward": 264.52, "objective": -3.184, "kl": 0.496, "best": true, "elapsed_s": 114.7}
+{"events": 60000, "updates": 14745, "music_reward": 276.974, "objective": -2.648, "kl": 0.469, "best": true, "elapsed_s": 138.5}
+{"events": 70000, "updates": 17245, "music_reward": 277.182, "objective": -1.753, "kl": 0.447, "best": true, "elapsed_s": 161.9}
+{"events": 80000, "updates": 19745, "music_reward": 291.822, "objective": -1.509, "kl": 0.374, "best": true, "elapsed_s": 185.3}
+{"events": 90000, "updates": 22245, "music_reward": 264.32, "objective": -1.188, "kl": 0.371, "best": true, "elapsed_s": 208.7}
+{"events": 100000, "updates": 24745, "music_reward": 252.382, "objective": -1.025, "kl": 0.366, "best": true, "elapsed_s": 232.3}
+{"events": 110000, "updates": 27245, "music_reward": 283.218, "objective": -0.519, "kl": 0.382, "best": true, "elapsed_s": 255.9}
+{"events": 120000, "updates": 29745, "music_reward": 238.231, "objective": 0.001, "kl": 0.371, "best": true, "elapsed_s": 279.5}
+{"events": 130000, "updates": 32245, "music_reward": 240.813, "objective": -0.242, "kl": 0.349, "best": false, "elapsed_s": 303.1}
+{"events": 140000, "updates": 34745, "music_reward": 282.841, "objective": -0.099, "kl": 0.363, "best": false, "elapsed_s": 326.4}
+{"events": 150000, "updates": 37245, "music_reward": 277.839, "objective": 0.135, "kl": 0.352, "best": true, "elapsed_s": 349.9}
+{"events": 160000, "updates": 39745, "music_reward": 302.854, "objective": 0.197, "kl": 0.357, "best": true, "elapsed_s": 373.3}
+{"events": 170000, "updates": 42245, "music_reward": 285.122, "objective": 0.333, "kl": 0.372, "best": true, "elapsed_s": 396.9}
+{"events": 180000, "updates": 44745, "music_reward": 252.67, "objective": 0.378, "kl": 0.364, "best": true, "elapsed_s": 420.4}
+{"events": 190000, "updates": 47245, "music_reward": 272.749, "objective": 0.37, "kl": 0.359, "best": false, "elapsed_s": 443.6}
+{"events": 200000, "updates": 49745, "music_reward": 255.169, "objective": 0.534, "kl": 0.37, "best": true, "elapsed_s": 467.5}

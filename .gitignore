@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+melody_env/
+runs/
+generated/
+data/processed/

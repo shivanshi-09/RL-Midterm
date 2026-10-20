@@ -1,0 +1,242 @@
+[
+  {
+    "file": "results/psi_seed42/baseline/melody_000.mid",
+    "notes": 98,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_001.mid",
+    "notes": 80,
+    "validated": true,
+    "duration_seconds": 23.8125
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_002.mid",
+    "notes": 93,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_003.mid",
+    "notes": 71,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_004.mid",
+    "notes": 75,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_005.mid",
+    "notes": 67,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_006.mid",
+    "notes": 126,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_007.mid",
+    "notes": 128,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_008.mid",
+    "notes": 56,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_009.mid",
+    "notes": 108,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_010.mid",
+    "notes": 110,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_011.mid",
+    "notes": 56,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_012.mid",
+    "notes": 80,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_013.mid",
+    "notes": 109,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_014.mid",
+    "notes": 102,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_015.mid",
+    "notes": 87,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_016.mid",
+    "notes": 84,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_017.mid",
+    "notes": 66,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_018.mid",
+    "notes": 105,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/baseline/melody_019.mid",
+    "notes": 111,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_000.mid",
+    "notes": 28,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_001.mid",
+    "notes": 32,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_002.mid",
+    "notes": 31,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_003.mid",
+    "notes": 25,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_004.mid",
+    "notes": 31,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_005.mid",
+    "notes": 23,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_006.mid",
+    "notes": 33,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_007.mid",
+    "notes": 35,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_008.mid",
+    "notes": 18,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_009.mid",
+    "notes": 37,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_010.mid",
+    "notes": 19,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_011.mid",
+    "notes": 62,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_012.mid",
+    "notes": 25,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_013.mid",
+    "notes": 35,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_014.mid",
+    "notes": 29,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_015.mid",
+    "notes": 28,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_016.mid",
+    "notes": 31,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_017.mid",
+    "notes": 31,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_018.mid",
+    "notes": 28,
+    "validated": true,
+    "duration_seconds": 24.0
+  },
+  {
+    "file": "results/psi_seed42/psi/melody_019.mid",
+    "notes": 22,
+    "validated": true,
+    "duration_seconds": 24.0
+  }
+]

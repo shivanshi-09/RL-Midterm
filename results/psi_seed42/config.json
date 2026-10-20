@@ -1,0 +1,76 @@
+{
+  "config": {
+    "horizon": 128,
+    "c": 0.5,
+    "gamma": 0.5,
+    "learning_rate": 0.0001,
+    "target_rate": 0.01,
+    "batch_size": 32,
+    "capacity": 100000,
+    "warmup": 1024,
+    "train_every": 4,
+    "seed": 42,
+    "eval_every": 10000,
+    "eval_count": 100,
+    "eval_seed": 100000,
+    "reward": {
+      "steps_per_bar": 16,
+      "steps_per_quarter": 4,
+      "key_penalty": -1.0,
+      "tonic_bonus": 3.0,
+      "repetition_penalty": -100.0,
+      "autocorrelation_weight": 3.0,
+      "autocorrelation_threshold": 0.15,
+      "motif_bonus": 3.0,
+      "motif_complexity": 0.3,
+      "repeated_motif_bonus": 4.0,
+      "interval_scale": 5.0,
+      "leap_bonus": 5.0,
+      "double_leap_penalty": -5.0,
+      "leap_return_wait_beats": 6,
+      "extrema_bonus": 3.0
+    },
+    "total_events": 200000
+  },
+  "metadata": {
+    "prior_path": "checkpoints/mle_256.pt",
+    "prior_sha256": "2aa770aeccc541edbf3b3b5ae636fd4441368c5a3b6ef78c5367f32e526a7217",
+    "source_epoch": 85,
+    "device": "cuda:1",
+    "torch_version": "2.7.1+cu128",
+    "reward": {
+      "version": 1,
+      "config": {
+        "steps_per_bar": 16,
+        "steps_per_quarter": 4,
+        "key_penalty": -1.0,
+        "tonic_bonus": 3.0,
+        "repetition_penalty": -100.0,
+        "autocorrelation_weight": 3.0,
+        "autocorrelation_threshold": 0.15,
+        "motif_bonus": 3.0,
+        "motif_complexity": 0.3,
+        "repeated_motif_bonus": 4.0,
+        "interval_scale": 5.0,
+        "leap_bonus": 5.0,
+        "double_leap_penalty": -5.0,
+        "leap_return_wait_beats": 6,
+        "extrema_bonus": 3.0
+      },
+      "upstream_revision": "c15687ebd1c1cc12658cd468c737d3c24c02b918",
+      "adaptations": [
+        "16 steps per bar; autocorrelation lags 4/8/12",
+        "Pitch rules use onsets; hold and silence are distinct",
+        "Autocorrelation uses sounding pitch and masks silent pairs",
+        "Constant pitch has finite maximal correlation; silence zero",
+        "Tonic bonus recognizes C in any octave and actual continuation",
+        "Leap return wait is six quarter-note beats",
+        "Fixed primer contributes context but receives no reward"
+      ]
+    },
+    "primer": [
+      14
+    ],
+    "source_prior_sha256": "144927860551a077285e36d74763ec8ae7378b165acfc70358fcd9b5ab5bac01"
+  }
+}
