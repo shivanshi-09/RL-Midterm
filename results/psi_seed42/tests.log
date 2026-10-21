@@ -1,0 +1,25 @@
+/home/ojas.kumar/RL-Midterm/melody_env/lib/python3.13/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+test_midi_round_trip (test_psi_learning.PsiTests.test_midi_round_trip) ... /home/ojas.kumar/RL-Midterm/melody_env/lib/python3.13/site-packages/note_seq/midi_io.py:207: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpy9a5m5j0/sample_0.mid'>
+  pretty_midi_object.write(open(output_file, 'wb'))
+/home/ojas.kumar/RL-Midterm/melody_env/lib/python3.13/site-packages/note_seq/midi_io.py:207: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpy9a5m5j0/sample_1.mid'>
+  pretty_midi_object.write(open(output_file, 'wb'))
+ok
+test_numerical_target_and_terminal_mask (test_psi_learning.PsiTests.test_numerical_target_and_terminal_mask) ... ok
+test_prior_frozen_and_collector_uses_current_weights (test_psi_learning.PsiTests.test_prior_frozen_and_collector_uses_current_weights) ... ok
+test_replay_prediction_alignment_and_padding (test_psi_learning.PsiTests.test_replay_prediction_alignment_and_padding) ... ok
+test_resumption_reproduces_next_collection_and_update (test_psi_learning.PsiTests.test_resumption_reproduces_next_collection_and_update) ... ok
+test_seeded_evaluation_is_batch_independent (test_psi_learning.PsiTests.test_seeded_evaluation_is_batch_independent) ... ok
+test_target_interpolation (test_psi_learning.PsiTests.test_target_interpolation) ... ok
+test_final_bar_timing (test_psi_learning.RewardTests.test_final_bar_timing) ... ok
+test_finite_constant_silent_autocorrelation_and_actual_lag (test_psi_learning.RewardTests.test_finite_constant_silent_autocorrelation_and_actual_lag) ... ok
+test_hold_rest_and_onsets_are_distinct (test_psi_learning.RewardTests.test_hold_rest_and_onsets_are_distinct) ... ok
+test_leap_resolves_by_returning_in_steps (test_psi_learning.RewardTests.test_leap_resolves_by_returning_in_steps) ... ok
+test_motif_windows_extrema_and_termination (test_psi_learning.RewardTests.test_motif_windows_extrema_and_termination) ... ok
+test_repetition_and_key (test_psi_learning.RewardTests.test_repetition_and_key) ... ok
+test_reward_overrides_validate_encoding_and_finiteness (test_psi_learning.RewardTests.test_reward_overrides_validate_encoding_and_finiteness) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.888s
+
+OK

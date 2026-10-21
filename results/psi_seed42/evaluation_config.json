@@ -1,0 +1,26 @@
+{
+  "count": 1000,
+  "seed_start": 200000,
+  "horizon": 128,
+  "config": {
+    "steps_per_bar": 16,
+    "steps_per_quarter": 4,
+    "key_penalty": -1.0,
+    "tonic_bonus": 3.0,
+    "repetition_penalty": -100.0,
+    "autocorrelation_weight": 3.0,
+    "autocorrelation_threshold": 0.15,
+    "motif_bonus": 3.0,
+    "motif_complexity": 0.3,
+    "repeated_motif_bonus": 4.0,
+    "interval_scale": 5.0,
+    "leap_bonus": 5.0,
+    "double_leap_penalty": -5.0,
+    "leap_return_wait_beats": 6,
+    "extrema_bonus": 3.0
+  },
+  "c": 0.5,
+  "gamma": 0.5,
+  "temperature": 1.0,
+  "qpm": 80
+}
